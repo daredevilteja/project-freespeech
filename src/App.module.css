@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+  padding: 1rem;
+  border-right: 1px solid grey;
+}
+
+.mainContainer {
+  display: flex;
+  flex: 3;
+  border-right: 1px solid grey;
+}
+
+.otherContainer {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+}
